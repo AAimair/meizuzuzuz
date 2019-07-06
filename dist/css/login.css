@@ -1,0 +1,187 @@
+html, body, ul, ol, li, dl, dt, dd, img, form, div, input, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6, strong, b, i, em {
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img, fieldset {
+  border: 0;
+  display: block; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+html, body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', "Arial", "sans-serif"; }
+
+header {
+  height: 70px; }
+
+li {
+  cursor: pointer; }
+
+h1 {
+  line-height: 70px;
+  height: 70px;
+  font-size: 50px;
+  color: #20b8ed;
+  margin-left: 50px; }
+
+section {
+  width: 1280px;
+  height: 752px;
+  margin: auto;
+  background: pink;
+  position: relative;
+  background: url("../images/login/bg.png") no-repeat left top;
+  background-size: 100%; }
+  section #tab {
+    width: 370px;
+    height: 470px;
+    background: white;
+    position: absolute;
+    top: 127px;
+    right: 100px; }
+    section #tab ul {
+      width: 300px;
+      height: 60px;
+      margin: 0 auto;
+      padding-top: 70px; }
+      section #tab ul li {
+        float: left;
+        font-size: 18px;
+        padding: 0 33px 0 33px;
+        height: 16px;
+        line-height: 18px;
+        color: #ccc;
+        cursor: pointer; }
+        section #tab ul li:nth-of-type(1) {
+          border-right: 2px solid #ccc;
+          color: black; }
+  section #form {
+    width: 100%;
+    height: 340px;
+    background: white; }
+    section #form #left {
+      display: block;
+      width: 100%;
+      height: 100%;
+      text-align: center; }
+      section #form #left input {
+        width: 80%;
+        height: 46px;
+        font-size: 14px;
+        margin-bottom: 20px;
+        text-indent: 10px; }
+      section #form #left div {
+        width: 80%;
+        height: 46px;
+        background: #ccc;
+        margin: auto;
+        line-height: 46px;
+        margin-bottom: 20px; }
+        section #form #left div:nth-of-type(2) {
+          background: white;
+          text-align: left;
+          line-height: 0;
+          height: 18px;
+          color: #ccc;
+          vertical-align: center; }
+          section #form #left div:nth-of-type(2) input {
+            display: inline-block;
+            width: 6px;
+            height: 6px; }
+          section #form #left div:nth-of-type(2) label {
+            font-size: 14px;
+            margin-left: 4px;
+            margin-top: -8px;
+            cursor: pointer; }
+          section #form #left div:nth-of-type(2) label:hover {
+            color: black; }
+        section #form #left div:nth-of-type(3) {
+          background: #387aff;
+          color: white;
+          cursor: pointer; }
+        section #form #left div:nth-of-type(4) {
+          background: white;
+          height: 20px;
+          line-height: 20px;
+          font-size: 14px;
+          color: #387aff;
+          position: relative; }
+          section #form #left div:nth-of-type(4) a {
+            position: absolute;
+            color: #387aff; }
+            section #form #left div:nth-of-type(4) a:nth-of-type(1) {
+              left: 0; }
+            section #form #left div:nth-of-type(4) a:nth-of-type(2) {
+              right: 0; }
+    section #form #right {
+      display: none;
+      width: 100%;
+      height: 100%;
+      text-align: center; }
+      section #form #right img {
+        display: block;
+        margin: auto; }
+      section #form #right p {
+        color: #999999;
+        font-size: 16px;
+        width: 80%;
+        margin: 28px auto; }
+
+footer {
+  width: 1280px;
+  height: 140px;
+  margin: auto; }
+  footer #top {
+    width: 100%;
+    height: 84px; }
+    footer #top ul {
+      width: 584px;
+      height: 84px;
+      line-height: 84px;
+      margin-left: 60px;
+      float: left; }
+      footer #top ul li {
+        display: inline-block;
+        font-size: 18px;
+        padding: 0 10px 0 10px;
+        line-height: 8px;
+        height: 12px;
+        vertical-align: center;
+        border-right: 2px solid #ccc; }
+        footer #top ul li:nth-of-type(6) {
+          border-right: none; }
+    footer #top span {
+      width: 310px;
+      display: block;
+      float: right;
+      height: 84px;
+      line-height: 84px; }
+    footer #top i {
+      margin-left: 60px;
+      clear: both;
+      width: 1280px;
+      display: block;
+      font-size: 12px;
+      color: #999999; }

@@ -1,0 +1,136 @@
+html, body, ul, ol, li, dl, dt, dd, img, form, div, input, p {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6, strong, b, i, em {
+  font-weight: 500;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+img, fieldset {
+  border: 0;
+  display: block; }
+
+.clear:after {
+  content: "";
+  display: block;
+  clear: both;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden; }
+
+html, body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', "Arial", "sans-serif"; }
+
+header {
+  height: 70px; }
+
+li {
+  cursor: pointer; }
+
+h1 {
+  line-height: 70px;
+  height: 70px;
+  font-size: 50px;
+  color: #20b8ed;
+  margin-left: 50px; }
+
+section {
+  height: 752px;
+  background: pink;
+  position: relative;
+  background: url("../images/login/bg.png") no-repeat left top;
+  background-size: 100%; }
+  section #tab {
+    width: 370px;
+    height: 470px;
+    background: white;
+    position: absolute;
+    top: 127px;
+    right: 100px; }
+    section #tab ul {
+      width: 300px;
+      height: 60px;
+      margin: 0 auto;
+      padding-top: 70px;
+      text-align: center; }
+      section #tab ul li {
+        display: inline-block;
+        font-size: 18px;
+        padding: 0 33px 0 33px;
+        height: 16px;
+        color: #387aff;
+        line-height: 18px;
+        cursor: pointer; }
+
+#form {
+  width: 100%;
+  height: 340px;
+  background: white; }
+  #form #left {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+    #form #left input {
+      width: 80%;
+      height: 46px;
+      font-size: 14px;
+      margin-bottom: 20px;
+      text-indent: 10px; }
+    #form #left div {
+      width: 80%;
+      height: 46px;
+      background: #387aff;
+      margin: auto;
+      line-height: 46px;
+      margin-bottom: 20px;
+      color: white; }
+
+footer {
+  width: 1280px;
+  height: 140px;
+  margin: auto; }
+  footer #top {
+    width: 100%;
+    height: 84px; }
+    footer #top ul {
+      width: 584px;
+      height: 84px;
+      line-height: 84px;
+      margin-left: 60px;
+      float: left; }
+      footer #top ul li {
+        display: inline-block;
+        font-size: 18px;
+        padding: 0 10px 0 10px;
+        line-height: 8px;
+        height: 12px;
+        vertical-align: center;
+        border-right: 2px solid #ccc; }
+        footer #top ul li:nth-of-type(6) {
+          border-right: none; }
+    footer #top span {
+      width: 310px;
+      display: block;
+      float: right;
+      height: 84px;
+      line-height: 84px; }
+    footer #top i {
+      margin-left: 60px;
+      clear: both;
+      width: 1280px;
+      display: block;
+      font-size: 12px;
+      color: #999999; }
